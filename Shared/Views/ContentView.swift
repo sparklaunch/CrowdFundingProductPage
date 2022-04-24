@@ -16,7 +16,9 @@ struct ContentView: View {
                     Color("BackgroundColor")
                     VStack {
                         TitleView()
+                        StatusView()
                     }
+                    .offset(x: .zero, y: -100)
                 }
             }
         }
