@@ -13,6 +13,9 @@
 		90960E6D2814D64100538202 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960E5B2814D63F00538202 /* ContentView.swift */; };
 		90960E6E2814D64100538202 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90960E5C2814D64100538202 /* Assets.xcassets */; };
 		90960E6F2814D64100538202 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90960E5C2814D64100538202 /* Assets.xcassets */; };
+		90960E7C2814D8CE00538202 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960E7B2814D8CE00538202 /* HeaderView.swift */; };
+		90960E7E2814D91300538202 /* TopNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960E7D2814D91300538202 /* TopNavigationView.swift */; };
+		90960E802814D93100538202 /* HeaderBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960E7F2814D93100538202 /* HeaderBackgroundView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		90960E612814D64100538202 /* Crowd Funding Product Page.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crowd Funding Product Page.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90960E672814D64100538202 /* Crowd Funding Product Page.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crowd Funding Product Page.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90960E692814D64100538202 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		90960E7B2814D8CE00538202 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		90960E7D2814D91300538202 /* TopNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNavigationView.swift; sourceTree = "<group>"; };
+		90960E7F2814D93100538202 /* HeaderBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderBackgroundView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +97,9 @@
 			isa = PBXGroup;
 			children = (
 				90960E5B2814D63F00538202 /* ContentView.swift */,
+				90960E7B2814D8CE00538202 /* HeaderView.swift */,
+				90960E7D2814D91300538202 /* TopNavigationView.swift */,
+				90960E7F2814D93100538202 /* HeaderBackgroundView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -200,7 +209,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90960E802814D93100538202 /* HeaderBackgroundView.swift in Sources */,
+				90960E7E2814D91300538202 /* TopNavigationView.swift in Sources */,
 				90960E6C2814D64100538202 /* ContentView.swift in Sources */,
+				90960E7C2814D8CE00538202 /* HeaderView.swift in Sources */,
 				90960E6A2814D64100538202 /* CrowdFundingProductPageApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
