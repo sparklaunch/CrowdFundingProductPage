@@ -50,12 +50,19 @@ struct TitleView: View {
                 }
             }
             .padding(24)
+            .padding(.top, 48)
         }
         .multilineTextAlignment(.center)
         .cornerRadius(15)
-        .padding()
-        .fixedSize(horizontal: false, vertical: true)
         .shadow(radius: 10)
+        .fixedSize(horizontal: false, vertical: true)
+        .overlay(alignment: .top) {
+            Image(decorative: "Mastercraft")
+                .resizable()
+                .frame(width: 56, height: 56)
+                .offset(x: .zero, y: -28)
+        }
+        .padding(24)
     }
 }
 
