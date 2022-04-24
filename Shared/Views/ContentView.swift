@@ -17,6 +17,7 @@ struct ContentView: View {
                     VStack {
                         TitleView()
                         StatusView()
+                        AboutView()
                     }
                     .offset(x: .zero, y: -100)
                 }

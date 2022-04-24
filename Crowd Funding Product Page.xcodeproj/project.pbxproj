@@ -20,6 +20,8 @@
 		90960E842814FBD600538202 /* StatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960E832814FBD600538202 /* StatusView.swift */; };
 		90960E862814FBF800538202 /* StatusItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960E852814FBF800538202 /* StatusItemView.swift */; };
 		90960E882814FD9200538202 /* ProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960E872814FD9200538202 /* ProgressBarView.swift */; };
+		90960E8A2814FF3400538202 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960E892814FF3400538202 /* AboutView.swift */; };
+		90960E8C2814FF5A00538202 /* AboutDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960E8B2814FF5A00538202 /* AboutDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		90960E832814FBD600538202 /* StatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusView.swift; sourceTree = "<group>"; };
 		90960E852814FBF800538202 /* StatusItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusItemView.swift; sourceTree = "<group>"; };
 		90960E872814FD9200538202 /* ProgressBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarView.swift; sourceTree = "<group>"; };
+		90960E892814FF3400538202 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		90960E8B2814FF5A00538202 /* AboutDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,8 @@
 				90960E832814FBD600538202 /* StatusView.swift */,
 				90960E852814FBF800538202 /* StatusItemView.swift */,
 				90960E872814FD9200538202 /* ProgressBarView.swift */,
+				90960E892814FF3400538202 /* AboutView.swift */,
+				90960E8B2814FF5A00538202 /* AboutDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -225,8 +231,10 @@
 				90960E882814FD9200538202 /* ProgressBarView.swift in Sources */,
 				90960E7E2814D91300538202 /* TopNavigationView.swift in Sources */,
 				90960E6C2814D64100538202 /* ContentView.swift in Sources */,
+				90960E8A2814FF3400538202 /* AboutView.swift in Sources */,
 				90960E7C2814D8CE00538202 /* HeaderView.swift in Sources */,
 				90960E842814FBD600538202 /* StatusView.swift in Sources */,
+				90960E8C2814FF5A00538202 /* AboutDetailView.swift in Sources */,
 				90960E862814FBF800538202 /* StatusItemView.swift in Sources */,
 				90960E6A2814D64100538202 /* CrowdFundingProductPageApp.swift in Sources */,
 				90960E822814DD2900538202 /* TitleView.swift in Sources */,
