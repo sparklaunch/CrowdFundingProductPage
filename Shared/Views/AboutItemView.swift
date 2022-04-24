@@ -45,7 +45,7 @@ struct AboutItemView: View {
                 Button {
                     // TODO: SELECT REWARD.
                 } label: {
-                    Text("Select Reward")
+                    Text(isActive ? "Select Reward" : "Out of Stock")
                         .font(.title3)
                         .fontWeight(.bold)
                         .foregroundColor(.white)
@@ -53,11 +53,13 @@ struct AboutItemView: View {
                         .padding(.horizontal)
                         .background(
                             Capsule(style: .continuous)
-                                .fill(Color("ButtonBackgroundColor"))
+                                .fill(Color(isActive ? "ButtonBackgroundColor" : "BodyColor"))
                         )
                 }
+                .disabled(!isActive)
             }
             .padding(24)
+            .opacity(isActive ? 1 : 0.5)
         }
         .cornerRadius(15)
         .shadow(radius: 10)
