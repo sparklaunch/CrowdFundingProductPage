@@ -15,12 +15,15 @@ struct ContentView: View {
                 ZStack(alignment: .top) {
                     Color("BackgroundColor")
                     VStack {
-
+                        TitleView()
                     }
                 }
             }
         }
         .edgesIgnoringSafeArea(.all)
+        .onAppear {
+            UIScrollView.appearance().bounces = false
+        }
     }
 }
 

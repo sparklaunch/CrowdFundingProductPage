@@ -16,6 +16,7 @@
 		90960E7C2814D8CE00538202 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960E7B2814D8CE00538202 /* HeaderView.swift */; };
 		90960E7E2814D91300538202 /* TopNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960E7D2814D91300538202 /* TopNavigationView.swift */; };
 		90960E802814D93100538202 /* HeaderBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960E7F2814D93100538202 /* HeaderBackgroundView.swift */; };
+		90960E822814DD2900538202 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960E812814DD2900538202 /* TitleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		90960E7B2814D8CE00538202 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		90960E7D2814D91300538202 /* TopNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNavigationView.swift; sourceTree = "<group>"; };
 		90960E7F2814D93100538202 /* HeaderBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderBackgroundView.swift; sourceTree = "<group>"; };
+		90960E812814DD2900538202 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				90960E7B2814D8CE00538202 /* HeaderView.swift */,
 				90960E7D2814D91300538202 /* TopNavigationView.swift */,
 				90960E7F2814D93100538202 /* HeaderBackgroundView.swift */,
+				90960E812814DD2900538202 /* TitleView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 				90960E6C2814D64100538202 /* ContentView.swift in Sources */,
 				90960E7C2814D8CE00538202 /* HeaderView.swift in Sources */,
 				90960E6A2814D64100538202 /* CrowdFundingProductPageApp.swift in Sources */,
+				90960E822814DD2900538202 /* TitleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
