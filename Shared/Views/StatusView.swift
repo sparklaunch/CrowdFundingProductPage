@@ -14,11 +14,14 @@ struct StatusView: View {
             VStack(spacing: 16) {
                 StatusItemView(title: "$89,914", text: "of $100,000 backed")
                 Divider()
+                    .background(Color("BodyColor"))
                     .frame(width: 120)
                 StatusItemView(title: "5,007", text: "total backers")
                 Divider()
+                    .background(Color("BodyColor"))
                     .frame(width: 120)
                 StatusItemView(title: "56", text: "days left")
+                ProgressBarView()
             }
             .padding(36)
         }
