@@ -13,6 +13,9 @@ struct AboutView: View {
             Color.white
             VStack {
                 AboutDetailView()
+                VStack {
+                    
+                }
             }
             .padding(24)
         }
