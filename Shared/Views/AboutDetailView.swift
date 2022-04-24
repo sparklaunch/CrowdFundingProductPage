@@ -32,6 +32,7 @@ struct AboutDetailView: View {
 struct AboutDetailView_Previews: PreviewProvider {
     static var previews: some View {
         AboutDetailView()
+            .padding()
             .previewLayout(.sizeThatFits)
     }
 }

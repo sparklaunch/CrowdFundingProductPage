@@ -25,7 +25,7 @@ struct TitleView: View {
                     .fixedSize(horizontal: false, vertical: true)
                 HStack {
                     Button {
-
+                        // TODO: BACK THIS PROJECT BUTTON.
                     } label: {
                         ZStack {
                             Capsule(style: .continuous)
@@ -39,7 +39,7 @@ struct TitleView: View {
                         .frame(maxHeight: .infinity)
                     }
                     Button {
-
+                        // TODO: BOOKMARK.
                     } label : {
                         Image(decorative: "Bookmark")
                             .resizable()
@@ -69,6 +69,7 @@ struct TitleView: View {
 struct TitleView_Previews: PreviewProvider {
     static var previews: some View {
         TitleView()
+            .padding()
             .previewLayout(.sizeThatFits)
     }
 }

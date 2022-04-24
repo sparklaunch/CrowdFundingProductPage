@@ -27,6 +27,7 @@ struct StatusItemView: View {
 struct StatusItemView_Previews: PreviewProvider {
     static var previews: some View {
         StatusItemView(title: "$89,914", text: "of $100,000 backed")
+            .padding()
             .previewLayout(.sizeThatFits)
     }
 }

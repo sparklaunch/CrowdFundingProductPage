@@ -14,10 +14,10 @@ struct AboutItemView: View {
     let leftAmount: UInt
     let isActive: Bool
     var body: some View {
-        ZStack {
+        ZStack(alignment: .topLeading) {
             Color.white
-            VStack {
-                VStack {
+            VStack(alignment: .leading, spacing: 32) {
+                VStack(alignment: .leading, spacing: 8) {
                     Text(title)
                         .font(.title2)
                         .fontWeight(.bold)
@@ -27,13 +27,48 @@ struct AboutItemView: View {
                         .fontWeight(.regular)
                         .foregroundColor(Color("ButtonBackgroundColor"))
                 }
+                Text(description)
+                    .font(.body)
+                    .fontWeight(.regular)
+                    .foregroundColor(Color("BodyColor"))
+                    .lineSpacing(5)
+                HStack {
+                    Text(leftAmount, format: .number)
+                        .font(.largeTitle)
+                        .fontWeight(.bold)
+                        .foregroundColor(Color("TitleColor"))
+                    Text("left")
+                        .font(.title3)
+                        .fontWeight(.semibold)
+                        .foregroundColor(Color("BodyColor"))
+                }
+                Button {
+                    // TODO: SELECT REWARD.
+                } label: {
+                    Text("Select Reward")
+                        .font(.title3)
+                        .fontWeight(.bold)
+                        .foregroundColor(.white)
+                        .padding()
+                        .padding(.horizontal)
+                        .background(
+                            Capsule(style: .continuous)
+                                .fill(Color("ButtonBackgroundColor"))
+                        )
+                }
             }
+            .padding(24)
         }
+        .cornerRadius(15)
+        .shadow(radius: 10)
+        .fixedSize(horizontal: false, vertical: true)
     }
 }
 
 struct AboutItemView_Previews: PreviewProvider {
     static var previews: some View {
         AboutItemView(title: "Bamboo Stand", pledgeAmount: 25, description: "You get an ergonomic stand made of natural bamboo. You've helped us launch our promotional campaign, and you'll be added to a special Backer member list.", leftAmount: 101, isActive: true)
+            .padding()
+            .previewLayout(.sizeThatFits)
     }
 }
