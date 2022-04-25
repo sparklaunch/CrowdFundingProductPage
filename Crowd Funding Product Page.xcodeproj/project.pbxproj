@@ -29,6 +29,7 @@
 		90960E9628163ADF00538202 /* MenuItemDividerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960E9528163ADF00538202 /* MenuItemDividerView.swift */; };
 		90960E9828163B5700538202 /* MenuBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960E9728163B5700538202 /* MenuBackgroundView.swift */; };
 		90960E9A281650AE00538202 /* ThankYouView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960E99281650AE00538202 /* ThankYouView.swift */; };
+		90960E9C2816531300538202 /* ThankYouBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960E9B2816531300538202 /* ThankYouBackgroundView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		90960E9528163ADF00538202 /* MenuItemDividerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemDividerView.swift; sourceTree = "<group>"; };
 		90960E9728163B5700538202 /* MenuBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBackgroundView.swift; sourceTree = "<group>"; };
 		90960E99281650AE00538202 /* ThankYouView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThankYouView.swift; sourceTree = "<group>"; };
+		90960E9B2816531300538202 /* ThankYouBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThankYouBackgroundView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 				90960E9528163ADF00538202 /* MenuItemDividerView.swift */,
 				90960E9728163B5700538202 /* MenuBackgroundView.swift */,
 				90960E99281650AE00538202 /* ThankYouView.swift */,
+				90960E9B2816531300538202 /* ThankYouBackgroundView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 				90960E8A2814FF3400538202 /* AboutView.swift in Sources */,
 				90960E9828163B5700538202 /* MenuBackgroundView.swift in Sources */,
 				90960E902816390200538202 /* GlobalState.swift in Sources */,
+				90960E9C2816531300538202 /* ThankYouBackgroundView.swift in Sources */,
 				90960E7C2814D8CE00538202 /* HeaderView.swift in Sources */,
 				90960E92281639AD00538202 /* MenuView.swift in Sources */,
 				90960E842814FBD600538202 /* StatusView.swift in Sources */,

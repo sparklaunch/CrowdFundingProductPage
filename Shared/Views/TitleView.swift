@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct TitleView: View {
+    @EnvironmentObject var globalState: GlobalState
     var body: some View {
         ZStack {
             Color.white
@@ -25,7 +26,9 @@ struct TitleView: View {
                     .fixedSize(horizontal: false, vertical: true)
                 HStack {
                     Button {
-                        // TODO: BACK THIS PROJECT BUTTON.
+                        withAnimation(.spring(response: 0.3, dampingFraction: 0.6, blendDuration: .zero)) {
+                            globalState.isThankYouViewVisible = true
+                        }
                     } label: {
                         ZStack {
                             Capsule(style: .continuous)

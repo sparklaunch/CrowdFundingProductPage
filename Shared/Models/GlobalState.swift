@@ -9,4 +9,5 @@ import Foundation
 
 class GlobalState: ObservableObject {
     @Published var isMenuExpanded: Bool = false
+    @Published var isThankYouViewVisible: Bool = false
 }

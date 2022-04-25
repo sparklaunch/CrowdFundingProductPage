@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ThankYouView: View {
+    @EnvironmentObject var globalState: GlobalState
     var body: some View {
         ZStack {
             Color.white
@@ -25,7 +26,9 @@ struct ThankYouView: View {
                     .foregroundColor(Color("BodyColor"))
                     .lineSpacing(5)
                 Button {
-
+                    withAnimation(.spring(response: 0.3, dampingFraction: 0.6, blendDuration: .zero)) {
+                        globalState.isThankYouViewVisible = false
+                    }
                 } label: {
                     Text("Got it!")
                         .font(.title2)
