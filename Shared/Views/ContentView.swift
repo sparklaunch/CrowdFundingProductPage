@@ -10,23 +10,28 @@ import SwiftUI
 struct ContentView: View {
     @StateObject var globalState = GlobalState()
     var body: some View {
-        ScrollView {
-            VStack(spacing: .zero) {
-                HeaderView()
-                ZStack(alignment: .top) {
-                    Color("BackgroundColor")
-                    VStack {
-                        TitleView()
-                        StatusView()
-                        AboutView()
+        ZStack(alignment: .top) {
+            ScrollView {
+                VStack(spacing: .zero) {
+                    HeaderView()
+                    ZStack(alignment: .top) {
+                        Color("BackgroundColor")
+                        VStack {
+                            TitleView()
+                            StatusView()
+                            AboutView()
+                        }
+                        .offset(x: .zero, y: -100)
                     }
-                    .offset(x: .zero, y: -100)
                 }
             }
-        }
-        .edgesIgnoringSafeArea(.all)
-        .onAppear {
-            UIScrollView.appearance().bounces = false
+            .edgesIgnoringSafeArea(.all)
+            .onAppear {
+                UIScrollView.appearance().bounces = false
+            }
+            MenuView()
+                .offset(x: .zero, y: 100)
+                .opacity(globalState.isMenuExpanded ? 1 : .zero)
         }
         .environmentObject(globalState)
     }

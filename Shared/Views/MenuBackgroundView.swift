@@ -10,6 +10,7 @@ import SwiftUI
 struct MenuBackgroundView: View {
     var body: some View {
         LinearGradient(colors: [.black.opacity(0.5), .clear], startPoint: .top, endPoint: .bottom)
+            .edgesIgnoringSafeArea(.all)
     }
 }
 

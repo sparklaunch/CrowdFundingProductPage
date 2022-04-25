@@ -8,9 +8,12 @@
 import SwiftUI
 
 struct HeaderView: View {
+    @EnvironmentObject var globalState: GlobalState
     var body: some View {
         ZStack(alignment: .top) {
             HeaderBackgroundView()
+            MenuBackgroundView()
+                .opacity(globalState.isMenuExpanded ? 1 : .zero)
             TopNavigationView()
         }
     }
