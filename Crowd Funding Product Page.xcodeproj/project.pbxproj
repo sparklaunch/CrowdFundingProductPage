@@ -127,23 +127,13 @@
 		90960E792814D66500538202 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				90960EA42816569300538202 /* ThankYou */,
+				90960EA32816567600538202 /* Menu */,
+				90960EA22816566600538202 /* About */,
+				90960EA12816564F00538202 /* Status */,
+				90960EA02816564100538202 /* Misc */,
+				90960E9F2816561900538202 /* Header */,
 				90960E5B2814D63F00538202 /* ContentView.swift */,
-				90960E7B2814D8CE00538202 /* HeaderView.swift */,
-				90960E7D2814D91300538202 /* TopNavigationView.swift */,
-				90960E7F2814D93100538202 /* HeaderBackgroundView.swift */,
-				90960E812814DD2900538202 /* TitleView.swift */,
-				90960E832814FBD600538202 /* StatusView.swift */,
-				90960E852814FBF800538202 /* StatusItemView.swift */,
-				90960E872814FD9200538202 /* ProgressBarView.swift */,
-				90960E892814FF3400538202 /* AboutView.swift */,
-				90960E8B2814FF5A00538202 /* AboutDetailView.swift */,
-				90960E8D281500ED00538202 /* AboutItemView.swift */,
-				90960E91281639AD00538202 /* MenuView.swift */,
-				90960E93281639D600538202 /* MenuItemView.swift */,
-				90960E9528163ADF00538202 /* MenuItemDividerView.swift */,
-				90960E9728163B5700538202 /* MenuBackgroundView.swift */,
-				90960E99281650AE00538202 /* ThankYouView.swift */,
-				90960E9B2816531300538202 /* ThankYouBackgroundView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -154,6 +144,64 @@
 				90960E8F2816390200538202 /* GlobalState.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		90960E9F2816561900538202 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				90960E7B2814D8CE00538202 /* HeaderView.swift */,
+				90960E7D2814D91300538202 /* TopNavigationView.swift */,
+				90960E7F2814D93100538202 /* HeaderBackgroundView.swift */,
+				90960E9728163B5700538202 /* MenuBackgroundView.swift */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		90960EA02816564100538202 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				90960E812814DD2900538202 /* TitleView.swift */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		90960EA12816564F00538202 /* Status */ = {
+			isa = PBXGroup;
+			children = (
+				90960E832814FBD600538202 /* StatusView.swift */,
+				90960E852814FBF800538202 /* StatusItemView.swift */,
+				90960E872814FD9200538202 /* ProgressBarView.swift */,
+			);
+			path = Status;
+			sourceTree = "<group>";
+		};
+		90960EA22816566600538202 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				90960E892814FF3400538202 /* AboutView.swift */,
+				90960E8B2814FF5A00538202 /* AboutDetailView.swift */,
+				90960E8D281500ED00538202 /* AboutItemView.swift */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
+		90960EA32816567600538202 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				90960E9528163ADF00538202 /* MenuItemDividerView.swift */,
+				90960E93281639D600538202 /* MenuItemView.swift */,
+				90960E91281639AD00538202 /* MenuView.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		90960EA42816569300538202 /* ThankYou */ = {
+			isa = PBXGroup;
+			children = (
+				90960E99281650AE00538202 /* ThankYouView.swift */,
+				90960E9B2816531300538202 /* ThankYouBackgroundView.swift */,
+			);
+			path = ThankYou;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
