@@ -28,6 +28,7 @@
 		90960E94281639D600538202 /* MenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960E93281639D600538202 /* MenuItemView.swift */; };
 		90960E9628163ADF00538202 /* MenuItemDividerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960E9528163ADF00538202 /* MenuItemDividerView.swift */; };
 		90960E9828163B5700538202 /* MenuBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960E9728163B5700538202 /* MenuBackgroundView.swift */; };
+		90960E9A281650AE00538202 /* ThankYouView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960E99281650AE00538202 /* ThankYouView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		90960E93281639D600538202 /* MenuItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemView.swift; sourceTree = "<group>"; };
 		90960E9528163ADF00538202 /* MenuItemDividerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemDividerView.swift; sourceTree = "<group>"; };
 		90960E9728163B5700538202 /* MenuBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBackgroundView.swift; sourceTree = "<group>"; };
+		90960E99281650AE00538202 /* ThankYouView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThankYouView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 				90960E93281639D600538202 /* MenuItemView.swift */,
 				90960E9528163ADF00538202 /* MenuItemDividerView.swift */,
 				90960E9728163B5700538202 /* MenuBackgroundView.swift */,
+				90960E99281650AE00538202 /* ThankYouView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 				90960E862814FBF800538202 /* StatusItemView.swift in Sources */,
 				90960E6A2814D64100538202 /* CrowdFundingProductPageApp.swift in Sources */,
 				90960E822814DD2900538202 /* TitleView.swift in Sources */,
+				90960E9A281650AE00538202 /* ThankYouView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
