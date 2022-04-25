@@ -11,19 +11,19 @@ struct MenuView: View {
     var body: some View {
         ZStack {
             Color.white
-            VStack(alignment: .leading, spacing: 24) {
+            VStack(alignment: .leading, spacing: Constants.semiwideSpacing) {
                 MenuItemView(text: "About", link: "#")
                 MenuItemDividerView()
                 MenuItemView(text: "Discover", link: "#")
                 MenuItemDividerView()
                 MenuItemView(text: "Get Started", link: "#")
             }
-            .padding(24)
+            .padding(Constants.semiwidePadding)
         }
         .cornerRadius(15)
         .shadow(radius: 10)
         .fixedSize(horizontal: false, vertical: true)
-        .padding(24)
+        .padding(Constants.semiwidePadding)
     }
 }
 

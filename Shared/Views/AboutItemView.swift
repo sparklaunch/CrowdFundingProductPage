@@ -16,7 +16,7 @@ struct AboutItemView: View {
     var body: some View {
         ZStack(alignment: .topLeading) {
             Color.white
-            VStack(alignment: .leading, spacing: 32) {
+            VStack(alignment: .leading, spacing: Constants.wideSpacing) {
                 VStack(alignment: .leading, spacing: 8) {
                     Text(title)
                         .font(.title2)
@@ -58,7 +58,7 @@ struct AboutItemView: View {
                 }
                 .disabled(!isActive)
             }
-            .padding(24)
+            .padding(Constants.semiwidePadding)
             .opacity(isActive ? 1 : 0.5)
         }
         .cornerRadius(15)

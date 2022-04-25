@@ -12,7 +12,7 @@ struct ThankYouView: View {
     var body: some View {
         ZStack {
             Color.white
-            VStack(spacing: 24) {
+            VStack(spacing: Constants.semiwideSpacing) {
                 Image(decorative: "Check")
                     .resizable()
                     .frame(width: 64, height: 64)
@@ -43,7 +43,7 @@ struct ThankYouView: View {
                 }
             }
             .multilineTextAlignment(.center)
-            .padding(24)
+            .padding(Constants.semiwidePadding)
         }
         .cornerRadius(15)
         .shadow(radius: 10)

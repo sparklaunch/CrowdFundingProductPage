@@ -12,7 +12,7 @@ struct TitleView: View {
     var body: some View {
         ZStack {
             Color.white
-            VStack(spacing: 24) {
+            VStack(spacing: Constants.semiwideSpacing) {
                 Text("Mastercraft Bamboo Monitor Riser")
                     .font(.title)
                     .fontWeight(.bold)
@@ -52,7 +52,7 @@ struct TitleView: View {
                     }
                 }
             }
-            .padding(24)
+            .padding(Constants.semiwidePadding)
             .padding(.top, 48)
         }
         .multilineTextAlignment(.center)
@@ -65,7 +65,7 @@ struct TitleView: View {
                 .frame(width: 56, height: 56)
                 .offset(x: .zero, y: -28)
         }
-        .padding(24)
+        .padding(Constants.semiwidePadding)
     }
 }
 

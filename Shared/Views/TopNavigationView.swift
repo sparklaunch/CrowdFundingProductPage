@@ -32,7 +32,7 @@ struct TopNavigationView: View {
                 }
             }
         }
-        .padding(24)
+        .padding(Constants.semiwidePadding)
         .padding(.top, 44)
         .background(
             LinearGradient(colors: [.black.opacity(0.5), .clear], startPoint: .top, endPoint: .bottom)

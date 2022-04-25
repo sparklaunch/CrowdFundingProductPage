@@ -9,7 +9,7 @@ import SwiftUI
 
 struct AboutDetailView: View {
     var body: some View {
-        VStack(alignment: .leading, spacing: 24) {
+        VStack(alignment: .leading, spacing: Constants.semiwideSpacing) {
             Text("About this project")
                 .font(.title)
                 .fontWeight(.bold)

@@ -30,6 +30,7 @@
 		90960E9828163B5700538202 /* MenuBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960E9728163B5700538202 /* MenuBackgroundView.swift */; };
 		90960E9A281650AE00538202 /* ThankYouView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960E99281650AE00538202 /* ThankYouView.swift */; };
 		90960E9C2816531300538202 /* ThankYouBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960E9B2816531300538202 /* ThankYouBackgroundView.swift */; };
+		90960E9E281653C800538202 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960E9D281653C800538202 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		90960E9728163B5700538202 /* MenuBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBackgroundView.swift; sourceTree = "<group>"; };
 		90960E99281650AE00538202 /* ThankYouView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThankYouView.swift; sourceTree = "<group>"; };
 		90960E9B2816531300538202 /* ThankYouBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThankYouBackgroundView.swift; sourceTree = "<group>"; };
+		90960E9D281653C800538202 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 			children = (
 				90960E5C2814D64100538202 /* Assets.xcassets */,
 				90960E5A2814D63F00538202 /* CrowdFundingProductPageApp.swift */,
+				90960E9D281653C800538202 /* Constants.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 				90960E9628163ADF00538202 /* MenuItemDividerView.swift in Sources */,
 				90960E8E281500ED00538202 /* AboutItemView.swift in Sources */,
 				90960E8C2814FF5A00538202 /* AboutDetailView.swift in Sources */,
+				90960E9E281653C800538202 /* Constants.swift in Sources */,
 				90960E862814FBF800538202 /* StatusItemView.swift in Sources */,
 				90960E6A2814D64100538202 /* CrowdFundingProductPageApp.swift in Sources */,
 				90960E822814DD2900538202 /* TitleView.swift in Sources */,
