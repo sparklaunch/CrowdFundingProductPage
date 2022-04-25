@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var globalState = GlobalState()
     var body: some View {
         ScrollView {
             VStack(spacing: .zero) {
@@ -27,6 +28,7 @@ struct ContentView: View {
         .onAppear {
             UIScrollView.appearance().bounces = false
         }
+        .environmentObject(globalState)
     }
 }
 
