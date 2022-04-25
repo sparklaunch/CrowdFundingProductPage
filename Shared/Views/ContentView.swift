@@ -30,7 +30,7 @@ struct ContentView: View {
                 UIScrollView.appearance().bounces = false
             }
             MenuView()
-                .offset(x: .zero, y: 100)
+                .offset(x: .zero, y: 80)
                 .opacity(globalState.isMenuExpanded ? 1 : .zero)
         }
         .environmentObject(globalState)

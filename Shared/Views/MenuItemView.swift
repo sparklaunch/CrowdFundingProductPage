@@ -9,9 +9,10 @@ import SwiftUI
 
 struct MenuItemView: View {
     let text: String
+    let link: String
     var body: some View {
         Button {
-
+            // TODO: LINK.
         } label: {
             Text(text)
                 .font(.title3)
@@ -23,7 +24,7 @@ struct MenuItemView: View {
 
 struct MenuItemView_Previews: PreviewProvider {
     static var previews: some View {
-        MenuItemView(text: "About")
+        MenuItemView(text: "About", link: "#")
             .padding()
             .previewLayout(.sizeThatFits)
     }

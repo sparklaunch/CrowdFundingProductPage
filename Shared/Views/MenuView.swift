@@ -12,11 +12,11 @@ struct MenuView: View {
         ZStack {
             Color.white
             VStack(alignment: .leading, spacing: 24) {
-                MenuItemView(text: "About")
+                MenuItemView(text: "About", link: "#")
                 MenuItemDividerView()
-                MenuItemView(text: "Discover")
+                MenuItemView(text: "Discover", link: "#")
                 MenuItemDividerView()
-                MenuItemView(text: "Get Started")
+                MenuItemView(text: "Get Started", link: "#")
             }
             .padding(24)
         }
